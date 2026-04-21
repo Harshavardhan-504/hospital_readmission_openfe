@@ -1,0 +1,21 @@
+{
+  "lgbm_tuned": {
+    "accuracy": 0.607,
+    "roc_auc": 0.6429,
+    "f1": 0.5419
+  },
+  "xgb_tuned": {
+    "accuracy": 0.6112,
+    "roc_auc": 0.649,
+    "f1": 0.5371
+  },
+  "ensemble": {
+    "accuracy": 0.611,
+    "roc_auc": 0.6469,
+    "f1": 0.5407
+  },
+  "cv_auc_mean": 0.6563,
+  "cv_auc_std": 0.012,
+  "cv_f1_mean": 0.5501,
+  "cv_f1_std": 0.008
+}

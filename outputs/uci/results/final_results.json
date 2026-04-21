@@ -1,0 +1,26 @@
+{
+  "1. Baseline (Raw Features)": {
+    "accuracy": 0.6379,
+    "roc_auc": 0.6912,
+    "f1": 0.5985,
+    "n_feats": 42
+  },
+  "2. OpenFE (LightGBM Tuned)": {
+    "accuracy": 0.6366,
+    "roc_auc": 0.6942,
+    "f1": 0.5871,
+    "n_feats": 62
+  },
+  "3. OpenFE (XGBoost Tuned)": {
+    "accuracy": 0.6366,
+    "roc_auc": 0.694,
+    "f1": 0.5825,
+    "n_feats": 62
+  },
+  "4. OpenFE (Ensemble)": {
+    "accuracy": 0.6375,
+    "roc_auc": 0.6943,
+    "f1": 0.5855,
+    "n_feats": 62
+  }
+}

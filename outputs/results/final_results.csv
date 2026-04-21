@@ -1,0 +1,4 @@
+,accuracy,roc_auc,f1,n_features
+Baseline (Raw),0.6098,0.6445,0.5522,16.0
+OpenFE (All),0.609,0.6401,0.5484,36.0
+OpenFE (Selected),0.6108,0.6424,0.551,26.0

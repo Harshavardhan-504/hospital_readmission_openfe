@@ -1,0 +1,20 @@
+{
+  "Baseline (Raw)": {
+    "accuracy": 0.6098,
+    "roc_auc": 0.6445,
+    "f1": 0.5522,
+    "n_features": 16
+  },
+  "OpenFE (All)": {
+    "accuracy": 0.609,
+    "roc_auc": 0.6401,
+    "f1": 0.5484,
+    "n_features": 36
+  },
+  "OpenFE (Selected)": {
+    "accuracy": 0.6108,
+    "roc_auc": 0.6424,
+    "f1": 0.551,
+    "n_features": 26
+  }
+}

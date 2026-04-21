@@ -1,0 +1,6 @@
+,accuracy,roc_auc,f1,cv_auc_mean,cv_auc_std
+LightGBM,0.6371,0.6943,0.5872,0.6839,0.002
+XGBoost,0.6373,0.6935,0.5836,0.6832,0.0019
+RandomForest,0.6321,0.6874,0.5678,0.6778,0.0016
+LogisticRegression,0.6285,0.6779,0.5606,0.6662,0.0026
+Ensemble,0.6359,0.6917,0.5758,0.0,0.0

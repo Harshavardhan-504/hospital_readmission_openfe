@@ -1,0 +1,36 @@
+{
+  "Logistic Regression": {
+    "train": {
+      "accuracy": 0.6125,
+      "roc_auc": 0.6466,
+      "f1": 0.4951
+    },
+    "val": {
+      "accuracy": 0.6064,
+      "roc_auc": 0.6413,
+      "f1": 0.487
+    },
+    "test": {
+      "accuracy": 0.6014,
+      "roc_auc": 0.6385,
+      "f1": 0.4806
+    }
+  },
+  "LightGBM": {
+    "train": {
+      "accuracy": 0.7883,
+      "roc_auc": 0.8793,
+      "f1": 0.7588
+    },
+    "val": {
+      "accuracy": 0.5988,
+      "roc_auc": 0.6289,
+      "f1": 0.547
+    },
+    "test": {
+      "accuracy": 0.6102,
+      "roc_auc": 0.6376,
+      "f1": 0.5591
+    }
+  }
+}
