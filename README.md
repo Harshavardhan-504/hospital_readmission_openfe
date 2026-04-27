@@ -22,26 +22,26 @@ Regression, and an Ensemble.
 hospital_readmission_openfe/
 │
 ├── data/
-│   ├── hospital_readmissions.csv    # Kaggle dataset (25k rows, 16 features)
-│   └── diabetes_uci.csv             # UCI dataset (97k rows, 42 features)
+│   ├── hospital_readmissions.csv    
+│   └── diabetes_uci.csv             
 │
 ├── src/
-│   └── uci/                         # Main project scripts
-│       ├── 00_eda.py                # Exploratory Data Analysis
-│       ├── 01_preprocessing.py      # Data cleaning and encoding
-│       ├── 02_baseline.py           # Baseline models on raw features
-│       ├── 03_openfe.py             # OpenFE feature generation
-│       ├── 04_feature_selection.py  # Multiple models + feature selection
-│       └── 05_evaluation.py         # Final evaluation and plots
+│   └── uci/                         
+│       ├── 00_eda.py                
+│       ├── 01_preprocessing.py      
+│       ├── 02_baseline.py           
+│       ├── 03_openfe.py             
+│       ├── 04_feature_selection.py  
+│       └── 05_evaluation.py         
 │
 ├── outputs/
 │   └── uci/
-│       ├── figures/                 # 18 publication-ready plots
-│       └── results/                 # Metrics JSON, CSV, model files
+│       ├── figures/                 
+│       └── results/                 
 │
-├── index.html                       # GitHub Pages interactive notebook
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
+├── index.html                       
+├── requirements.txt                 
+└── README.md                        
 ```
 
 ---
@@ -120,9 +120,6 @@ python src/uci/04_feature_selection.py
 python src/uci/05_evaluation.py
 ```
 
-> ⚠️ **Note for macOS users:** OpenFE requires `n_jobs=1` due to
-> multiprocessing limitations on macOS Python 3.13.
-> This is already set in the scripts.
 
 ---
 
@@ -192,7 +189,7 @@ OUTPUT: X_new (58,265 × 62 features)
 
 ---
 
-## 📈 Output Figures
+## Output Figures
 
 All figures saved to `outputs/uci/figures/`:
 
@@ -218,15 +215,13 @@ All figures saved to `outputs/uci/figures/`:
 
 ---
 
-## 🌐 GitHub Pages
-
-Interactive notebook with all code cells and outputs:
+## GitHub Pages
 
 👉 **[https://harshavardhan-504.github.io/hospital_readmission_openfe/](https://harshavardhan-504.github.io/hospital_readmission_openfe/)**
 
 ---
 
-## 📚 References
+## References
 
 1. Zhang, T. et al. (2023). **OpenFE: Automated feature generation with
    expert-level performance.** ICML 2023, pp. 41880–41901. PMLR.
@@ -247,13 +242,4 @@ Interactive notebook with all code cells and outputs:
 6. Strack, B. et al. (2014). **UCI Machine Learning Repository: Diabetes
    130-US Hospitals for years 1999–2008 dataset.**
 
----
 
-## 📝 License
-
-This project is for academic purposes only — CSCE 5222 Feature Engineering,
-University of North Texas.
-
----
-
-*Made with 🏥 by Group 3 — Harshavardhan Sasikumar & Mahesh Chilukamari*
