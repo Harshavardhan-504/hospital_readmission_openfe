@@ -101,22 +101,22 @@ print('Dataset downloaded:', df.shape)
 Run each script in order from the project root:
 
 ```bash
-# Step 0 — Exploratory Data Analysis (generates 8 EDA plots)
+# Step 0 — Exploratory Data Analysis 
 python src/uci/00_eda.py
 
-# Step 1 — Preprocessing (clean, encode, split data)
+# Step 1 — Preprocessing 
 python src/uci/01_preprocessing.py
 
-# Step 2 — Baseline Models (LR + LightGBM on raw features)
+# Step 2 — Baseline Models
 python src/uci/02_baseline.py
 
-# Step 3 — OpenFE Feature Generation (takes 5-10 mins)
+# Step 3 — OpenFE Feature Generation 
 python src/uci/03_openfe.py
 
-# Step 4 — Feature Selection + All Models (takes ~15 mins)
+# Step 4 — Feature Selection + All Models 
 python src/uci/04_feature_selection.py
 
-# Step 5 — Final Evaluation (all plots + results table)
+# Step 5 — Final Evaluation 
 python src/uci/05_evaluation.py
 ```
 
