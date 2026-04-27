@@ -183,8 +183,8 @@ OUTPUT: X_new (58,265 × 62 features)
 - ✅ Top generated features (`autoFE_f_17`, `autoFE_f_14`) outranked
   ALL 42 original features in importance
 - ✅ CV AUC 0.6839 ± 0.002 confirms improvement is statistically reliable
-- 🏥 Insulin usage strongly associated with readmission (0.96 vs 0.82)
-- 🏥 Age group 80-90 has highest readmission rate (48%)
+- Insulin usage strongly associated with readmission (0.96 vs 0.82)
+- Age group 80-90 has highest readmission rate (48%)
 - ⚠️ F1 drops slightly — expected AUC optimization tradeoff
 
 ---
