@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project applies **OpenFE** (Automated Feature Generation with
 Expert-level Performance) to the UCI Diabetes 130-US Hospitals dataset
@@ -15,20 +15,8 @@ on raw features versus models trained on OpenFE-generated features,
 evaluating across LightGBM, XGBoost, Random Forest, Logistic
 Regression, and an Ensemble.
 
-### 🔑 Best Result
 
-| Configuration | Features | Accuracy | AUC | F1 |
-|---|---|---|---|---|
-| Baseline (LightGBM) | 42 | 0.6379 | 0.6912 | 0.5985 |
-| OpenFE + LightGBM | 62 | 0.6371 | 0.6942 | 0.5872 |
-| OpenFE + XGBoost | 62 | 0.6366 | 0.6940 | 0.5825 |
-| **OpenFE + Ensemble ★** | **62** | **0.6375** | **0.6943** | **0.5855** |
-
-★ CV AUC = 0.6839 ± 0.002 (5-fold cross-validation — statistically reliable)
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 hospital_readmission_openfe/
@@ -58,7 +46,7 @@ hospital_readmission_openfe/
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 **UCI Diabetes 130-US Hospitals Dataset**
 - Source: [UCI ML Repository](https://archive.ics.uci.edu/dataset/296)
@@ -70,7 +58,7 @@ hospital_readmission_openfe/
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 - Python 3.11+ recommended (tested on Python 3.13.11)
@@ -78,7 +66,7 @@ hospital_readmission_openfe/
 
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/hospital_readmission_openfe.git
+git clone https://github.com/Harshavardhan-504/hospital_readmission_openfe.git
 cd hospital_readmission_openfe
 ```
 
@@ -108,7 +96,7 @@ print('Dataset downloaded:', df.shape)
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 Run each script in order from the project root:
 
@@ -138,7 +126,7 @@ python src/uci/05_evaluation.py
 
 ---
 
-## 🤖 OpenFE Pipeline
+## OpenFE Pipeline
 
 OpenFE follows an **expand-and-reduce** framework:
 
@@ -169,7 +157,7 @@ OUTPUT: X_new (58,265 × 62 features)
 
 ---
 
-## 📊 Results
+## Results
 
 ### Performance Comparison (Test Set — 19,422 patients)
 
