@@ -1,0 +1,10 @@
+.DS_Store
+*.feather
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+*.egg-info/
+.ipynb_checkpoints/
+openfe_tmp_data.feather
