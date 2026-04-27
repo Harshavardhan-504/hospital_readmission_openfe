@@ -1,10 +1,8 @@
-# 🏥 Hospital Readmission Prediction using OpenFE
+# Hospital Readmission Prediction using OpenFE
 ## Automated Feature Engineering on UCI Diabetes 130-US Hospitals Dataset
 
-**Course:** CSCE 5222 Feature Engineering — University of North Texas  
 **Group:** Group 3  
-**Authors:** Harshavardhan Sasikumar & Mahesh Chilukamari  
-**Dataset:** UCI Diabetes 130-US Hospitals (1999–2008)
+**Members:** Harshavardhan Sasikumar (11800735) & Mahesh Chilukamari (11761476)
 
 ---
 
@@ -236,7 +234,7 @@ All figures saved to `outputs/uci/figures/`:
 
 Interactive notebook with all code cells and outputs:
 
-👉 **[View GitHub Pages →](https://harshavardhan-504.github.io/hospital_readmission_openfe/)**
+👉 **[https://harshavardhan-504.github.io/hospital_readmission_openfe/](https://harshavardhan-504.github.io/hospital_readmission_openfe/)**
 
 ---
 
